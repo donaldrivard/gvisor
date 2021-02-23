@@ -34,6 +34,7 @@ func instrumentationFilters() seccomp.SyscallRules {
 		syscall.SYS_MMAP:            {},
 		syscall.SYS_MUNLOCK:         {},
 		syscall.SYS_NANOSLEEP:       {},
+		syscall.SYS_CLOCK_NANOSLEEP: {},
 		syscall.SYS_OPEN:            {},
 		syscall.SYS_OPENAT:          {},
 		syscall.SYS_SET_ROBUST_LIST: {},
